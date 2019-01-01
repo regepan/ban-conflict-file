@@ -4,7 +4,7 @@
   "description": "",
   "main": "cli.js",
   "bin": {
-    "ban-conflict-file": "ban-conflict-file.js"
+    "ban-conflict-file": "bin/ban-conflict-file.js"
   },
   "directories": {
     "test": "test"
