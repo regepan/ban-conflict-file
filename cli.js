@@ -38,15 +38,15 @@ sgf('ACMR', (err, files) => {
     rl.on('line', function (data) {
       line++;
 
-      if (data.search('^<<<<<<< HEAD$') > -1 || data.search('^=======$') > -1 || data.search('^>>>>>>>') > -1) {
+      if (data.search(/^<<<<<<< HEAD$/) > -1 || data.search(/^=======$/) > -1 || data.search(/^>>>>>>>/) > -1) {
         putError(line, file);
       }
 
     });
 
-    rl.on('close', function() {
-      process.exit(1);
-    });
+    // rl.on('close', function() {
+    //   // process.exit(1);
+    // });
   });
 });
 
