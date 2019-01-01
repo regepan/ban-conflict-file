@@ -1,29 +1,25 @@
 {
   "name": "ban-conflict-file",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "cli.js",
   "bin": {
-    "ban-conflict-file": "bin/ban-conflict-file.js"
+    "ban-conflict-file": "ban-conflict-file.js"
+  },
+  "directories": {
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/regepan/ban-conflict-file.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/regepan/ban-conflict-file/issues"
   },
-  "homepage": "https://github.com/regepan/ban-conflict-file#readme",
-  "devDependencies": {
-    "mocha": "^4.0.1"
-  },
-  "dependencies": {
-    "install": "^0.10.1",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/regepan/ban-conflict-file#readme"
 }
